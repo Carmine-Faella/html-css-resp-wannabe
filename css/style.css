@@ -132,15 +132,6 @@ img {
     .container{
         width: 100%;
     }
-
-    .row{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .container .col{
-        width: calc(100% / 2);
-    }
   }
  
  @media all and (max-width: 768px){
@@ -153,8 +144,12 @@ img {
         flex-wrap: wrap;
     }
 
-    .container .col{
+    .why-us .container .col, .lessons .container .col{
         width: calc(100% / 2);
+    }
+
+    .steps .container .col{
+        width: (100% / 3);
     }
   }
  
