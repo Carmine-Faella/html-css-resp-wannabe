@@ -144,25 +144,22 @@ img {
         flex-wrap: wrap;
     }
 
-    .why-us .container .col, .lessons .container .col{
+    .why-us .col, .lessons .col{
         width: calc(100% / 2);
     }
 
-    .steps .container .col{
+    .steps .col{
         width: (100% / 3);
     }
   }
  
  @media all and (max-width: 480px) {
-    .container{
-        width: 100%;
-    }
-
+  
     .row{
         display: block;
     }
 
-    .container .col{
+    .lessons .col, .steps .col, .why-us .col{
         width: 100%;
     }
   }
